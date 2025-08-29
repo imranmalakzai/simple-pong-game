@@ -1,0 +1,31 @@
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game-container {
+  position: relative;
+}
+
+#pong-canvas {
+  background: #000;
+  display: block;
+  border: 4px solid #fff;
+  border-radius: 10px;
+}
+
+#scoreboard {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 10px;
+  user-select: none;
+}
